@@ -1,0 +1,27 @@
+
+[
+    {
+        "key": "value",
+        "nama": "shafwan",
+        "umur": 16,
+        "nrp": 411271827,
+        "lulus": true,
+        "hobby": ["coding", "becak"],
+        "pembimbing": {
+            "pembimbing1": "beni",
+            "pembimbing2": "becak"
+        }
+    },
+    {
+        "key": "value",
+        "nama": "shafwan",
+        "umur": 16,
+        "nrp": 411271827,
+        "lulus": true,
+        "hobby": ["coding", "becak"],
+        "pembimbing": {
+            "pembimbing1": "beni",
+            "pembimbing2": "becak"
+        }
+    }
+]

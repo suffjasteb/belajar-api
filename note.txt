@@ -1,0 +1,105 @@
+#1 APA ITU API?
+-MySql bukan database tapi DBMS(Database Management System)
+-Application Programming Interface
+-unikasi antara klien dengan server untuk menyederhanakan implementasi dan perbaikan software.
+-API Bisa diartikan juga sebagai sekumpulan perintah, fungsi, serta protokol yang dapat digunakan oleh programmer saat membangun perangkat lunak
+untuk sistem operasi tertentu. API memungkinkan programmer untuk menggunakan fungsi standar untuk berinteraksi dengan sistem operasi.
+-Interface => bagian yang sama antara dua atau lebih komponen terpisah pada sebuah sistem komputer
+-Graphical User Interface => adalah antarmuka grafis yang memungkinkan pengguna berinteraksi dengan perangkat elektronik melalui elemen visual, seperti ikon, tombol, menu, dan jendela.
+-REST => Representational State Transfer
+
+-SOAP => Simple Object Accsess Protocol
+
+-Web API/Web Service => Sebuah sistem perangkat lunak yang di buat untuk mendukung interoperabilitas / interaksi
+antar 2 aplikasi yang berbeda melalui jaringan(biasanya jaringan nya kita gunakan http protocolnya)
+-Selama pertukaran data nya lewat http kita bisa buat web service di tengah tengah nya.
+
+#2 REST DAN HTTP
+-Rest API => Gaya Arsitektural perangkat lunak yang di dalam nya mendefinisikan aturan aturan untuk membuat web service(wikipedia)
+-API == Rest API
+-Contoh studi kasus => trevaloka. apakah trevaloka terhubung dengan database maskapai pernerbangan? jelas tidak.
+terus lewat mana? lewat API/Web service, yang bisa di akses oleh orang lain. jadi trevaloka minta data ke API nanti API minta data ke DATABASE
+-referensi video dari wpu => https://youtu.be/s7wmiS2mSXY?si=13kQICtgL5TtQl-l
+-ILUSTRASI :
+API => adalah penghubung
+Rest API => adalah aturan
+ada REQUEST & RESPONSE
+data yang dikirim/diterima berupa JSON
+-REST API
+Representational State Transfer
+Gaya Perancangan / Arsitektural Style
+Stateless (tidak ada state nya)
+By. Roy Fielding
+Hampir selalu menggunakan http
+Memungkinkan interaksi antar mesin
+-HTTP => Hypertext Transfer Protocol
+-studi kasus : Apa yang terjadi di balik layar ketika kita mengetik www.google.com?
+Jadi kita menuslikan URL (Uniform Resource Locator) => sebuah alamat yang bisa mengakses sumber daya/Resource. Sumber daya bisa berupa macem macem bisa berupaa html,css,gambar,script,dll.
+apapaun yang kita akses di halaman web itu kita sebut sebagai sumber daya.
+-URL => definisinya adalah ALAMAT dari sebuah Resouce yang dapat kita akses di internet. contoh(https://www.facebook.com/index.php)
+
+-HTTP METHOD/VERBS
+-GET: Mengambil data user. POST: Menambahkan user baru. PUT: Memperbarui seluruh informasi user. DELETE: Menghapus user.
+-namun PUT dan DELETE ini gak bisa di pakai di browser, tapi banyak bahasa pemograman mampu melakukan hal ini
+-kalo mau buat aplikasi yang RESTFUL ini 4 4 nya harus di pakai
+
+
+-Here's a list of common HTTP status codes used in APIs, categorized for clarity:
+Successful Responses (2xx):
+
+    200 OK: The request was successful.
+
+201 Created: The request has been fulfilled, and a new resource has been created.
+202 Accepted: The request has been accepted for processing, but the processing hasn't been completed.
+204 No Content: The request was successful, but there's no content to return.
+206 Partial Content: The server has successfully fulfilled a partial GET request for a resource.
+
+Redirection (3xx):
+
+    301 Moved Permanently: The requested resource has been moved to a new URI.
+    302 Found: The requested resource has been temporarily moved to a new URI.
+    304 Not Modified: The resource has not been modified since the last request.
+
+Client Errors (4xx):
+
+    400 Bad Request: The server cannot process the request due to a client error.
+
+401 Unauthorized: The client needs to authenticate to access the resource.
+403 Forbidden: The client is not authorized to access the resource.
+404 Not Found: The server cannot find the requested resource.
+405 Method Not Allowed: The HTTP method used is not allowed for the requested resource.
+408 Request Timeout: The server timed out waiting for the request.
+409 Conflict: The request could not be completed due to a conflict with the current state of the resource.
+410 Gone: The requested resource is no longer available.
+429 Too Many Requests: The client has sent too many requests in a given amount of time.
+
+Server Errors (5xx):
+
+    500 Internal Server Error:
+    The server encountered an unexpected condition that prevented it from fulfilling the request.
+
+502 Bad Gateway:
+The server received an invalid response from another server it used as a gateway.
+503 Service Unavailable:
+The server is currently unable to handle the request.
+504 Gateway Timeout:
+The server did not receive a timely response from another server it used as a gateway.
+
+-Stateless
+-Setiap request HTTP dilakukan secara terisolasi
+-server tidak menyimpan state apapun mengenai sesi dari client
+-setiap request dari client harus berisi semua informasi yang di butuhkan server,termasuk informasi authentikasi
+
+-RESTful API
+-menggunakan method HTTP yang benar(end point)
+-URL/end-points-nya menggunakan kata benda, bukan kata kerja(kayak /mahasiswa/tambah itu gak boleh, cukup /mahasiswa tinggal nanti kita mainkan request method nya)
+-stateless
+
+#3 JSON
+
+-JSON => (Javascript object Notation) adalah sebuah file format standar yang menggunakan tulisan yang dapat dibaca oleh manusia untuk pertukaran data, yang di dalam nya berisi pasangan antara key dan value
+
+-bekerja dengan json
+-di php ada yang namanya json_encode dan json_decode
+*json_encode => untuk mengubah array/object yang kita punya menjadi json supaya bisa di akses orang
+*json_decode => untuk mengubah json jadi array supaya gampang di manipulasi
