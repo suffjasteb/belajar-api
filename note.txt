@@ -103,3 +103,6 @@ The server did not receive a timely response from another server it used as a ga
 -di php ada yang namanya json_encode dan json_decode
 *json_encode => untuk mengubah array/object yang kita punya menjadi json supaya bisa di akses orang
 *json_decode => untuk mengubah json jadi array supaya gampang di manipulasi
+
+*stringify => digunakan untuk mengubah objek JavaScript menjadi string JSON
+*parse => digunakan untuk mengubah string JSON menjadi objek JavaScript. 
