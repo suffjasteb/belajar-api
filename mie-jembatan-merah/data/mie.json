@@ -1,0 +1,116 @@
+{
+    "menu": [
+        {
+            "kategori": "mie",
+            "nama": "mie ayam kampung",
+            "deskripsi": "mie ayam khas kampung teluk bole tengah surabaya selatan",
+            "harga": 12000,
+            "gambar": "mie-ayam-kampung.jpg"
+        },
+        {
+            "kategori": "mie",
+            "nama": "mie babat sapi",
+            "deskripsi": "mie ayam sapi swiss",
+            "harga": 18000,
+            "gambar": "mie-babat-sapi.jpg"
+        },
+        {
+            "kategori": "mie",
+            "nama": "mie otot sapi",
+            "deskripsi": "mie ayam paduan otot sapi dan daging sapi",
+            "harga": 19000,
+            "gambar": "mie-otot-sapi.jpg"
+        },
+        {
+            "kategori": "mie",
+            "nama": "mie sechuan",
+            "deskripsi": "mie ayam asal pondok sechuan sidoarjo",
+            "harga": 13000,
+            "gambar": "mie-sechuan.jpg"
+        },
+        {
+            "kategori": "mie",
+            "nama": "pangsit kuah",
+            "deskripsi": "pangsit kuah original",
+            "harga": 8000,
+            "gambar": "pangsit-kuah.jpg"
+        },
+        {
+            "kategori": "bakso",
+            "nama": "bakso campur",
+            "deskripsi": "bakso campur daging,teepung,gorengan",
+            "harga": 17000,
+            "gambar": "bakso-campur.jpg"
+        },
+        {
+            "kategori": "bakso",
+            "nama": "bakso jadol",
+            "deskripsi": "bakso racikan bumbu jadol",
+            "harga": 9000,
+            "gambar": "bakso-jadol.jpg"
+        },
+        {
+            "kategori": "bakso",
+            "nama": "bakso jumbo",
+            "deskripsi": "bakso jumbo khas palempang",
+            "harga": 15000,
+            "gambar": "bakso-jumbo.jpg"
+        },
+        {
+            "kategori": "bakso",
+            "nama": "bakso komplit",
+            "deskripsi": "bakso komplit semua toping",
+            "harga": 17000,
+            "gambar": "bakso-komplit.jpg"
+        },
+        {
+            "kategori": "bakso",
+            "nama": "bakso original",
+            "deskripsi": "bakso original mie jembatan merah",
+            "harga": 7000,
+            "gambar": "bakso-original.jpg"
+        },
+        {
+            "kategori": "bakso",
+            "nama": "bakso standar",
+            "deskripsi": "bakso nya kelas menegah",
+            "harga": 11000,
+            "gambar": "bakso-standar.jpg"
+        },
+        {
+            "kategori": "jus",
+            "nama": "jus jambu",
+            "deskripsi": "Jus Jambu Merah Ori",
+            "harga": 6000,
+            "gambar": "jus-jambu.jpg"
+        },
+        {
+            "kategori": "jus",
+            "nama": "jus jeruk",
+            "deskripsi": "Jus jeruk oren Ori",
+            "harga": 5000,
+            "gambar": "jus-jeruk.jpg"
+        },
+        {
+            "kategori": "jus",
+            "nama": "jus naga",
+            "deskripsi": "Jus merah naga Ori",
+            "harga": 7000,
+            "gambar": "jus-naga.jpg"
+        },
+        {
+            "kategori": "jus",
+            "nama": "jus sirsak",
+            "deskripsi": "Jus sirsak Ori",
+            "harga": 6000,
+            "gambar": "jus-sirsak.jpg"
+        },
+        {
+            "kategori": "jus",
+            "nama": "jus tomat",
+            "deskripsi": "Jus tomat supermart",
+            "harga": 7000,
+            "gambar": "jus-tomat.jpg"
+        }
+    ]
+}
