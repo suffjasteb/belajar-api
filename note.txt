@@ -106,3 +106,6 @@ The server did not receive a timely response from another server it used as a ga
 
 *stringify => digunakan untuk mengubah objek JavaScript menjadi string JSON
 *parse => digunakan untuk mengubah string JSON menjadi objek JavaScript. 
+
+-cURL adalah singkatan dari "Client URL". 
+-cuRL Merupakan library PHP yang memungkinkan Anda untuk melakukan transfer data menggunakan protokol URL. 
