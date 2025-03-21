@@ -109,3 +109,17 @@ The server did not receive a timely response from another server it used as a ga
 
 -cURL adalah singkatan dari "Client URL". 
 -cuRL Merupakan library PHP yang memungkinkan Anda untuk melakukan transfer data menggunakan protokol URL. 
+
+#8 authentikasi
+
+-Autentikasi REST server adalah proses memastikan bahwa pengguna yang mengakses server REST adalah orang yang sah, biasanya dengan memverifikasi kredensial seperti nama pengguna dan kata sandi atau token, sebelum mereka diizinkan mengakses sumber daya. 
+
+
+-Metode Autentikasi Umum:
+
+    Autentikasi Dasar (Basic Authentication): Klien mengirimkan nama pengguna dan kata sandi di header permintaan yang dienkripsi dengan Base64. 
+
+Autentikasi Pembawa (Bearer Authentication): Klien mengirimkan token akses di header permintaan. Token ini biasanya diberikan oleh server setelah pengguna berhasil login. 
+Kunci API (API Key): Server memberikan kunci unik kepada klien, yang kemudian digunakan klien untuk mengidentifikasi dirinya. 
+OAuth: Protokol yang memungkinkan pengguna untuk memberikan akses ke sumber daya mereka tanpa membagikan kredensial mereka. 
+OpenID Connect: Ekstensi OAuth yang digunakan untuk autentikasi tunggal dan menyediakan informasi pengguna. 

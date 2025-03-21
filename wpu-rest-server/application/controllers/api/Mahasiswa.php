@@ -14,6 +14,9 @@ class Mahasiswa extends REST_Controller {
 
         $this->load->model('Mahasiswa_model');
 
+        // limit per method per jam 
+        $this->methods['index_get']['limit'] = 10; // per key sejam cuma bole 2x
+
     }
 
     public function index_get() {
